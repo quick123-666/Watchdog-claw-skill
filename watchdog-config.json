@@ -1,0 +1,22 @@
+{
+    "maxCpuPercent": 80,
+    "maxMemoryMB": 1024,
+    "cpuHangSeconds": 30,
+    "minMemToCheckHang": 100,
+    "processWhitelist": ["python", "streamlit", "node", "QClaw"],
+    "maxCacheMB": 1024,
+    "maxLogMB": 100,
+    "cachePaths": [
+        "C:\\Users\\Administrator\\.qclaw\\compile-cache",
+        "C:\\Users\\Administrator\\Desktop\\TuriX-CUA-multi-agent-windows\\.cache"
+    ],
+    "logPaths": [
+        "C:\\Users\\Administrator\\.qclaw\\logs",
+        "C:\\Users\\Administrator\\Desktop\\TuriX-CUA-multi-agent-windows\\logs"
+    ],
+    "autoKill": true,
+    "autoRestart": false,
+    "restartCommands": {
+        "QClaw": "Start-Process 'C:\\Program Files\\QClaw\\QClaw.exe'"
+    }
+}
